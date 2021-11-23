@@ -58,12 +58,12 @@ public class Categoria implements Serializable {
         this.description = description;
     }
 
-    public List<Costume> getCostume() {
+    public List<Costume> getCostumes() {
         return costume;
     }
 
-    public void setCostume(List<Costume> costume) {
-        this.costume = costume;
+    public void setCostumes(List<Costume> costumes) {
+        this.costume = costumes;
     }
 
 }
